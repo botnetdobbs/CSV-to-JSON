@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-csv-to-json",
+  "version": "1.0.0",
+  "description": "Assignment 1 for the course, Introduction to Node js by Microsoft",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lazarus Odhiambo",
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^1.1.9"
+  }
+}
