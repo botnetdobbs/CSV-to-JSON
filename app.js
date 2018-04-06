@@ -10,7 +10,7 @@ var converter = new Converter();
 converter.fromFile(path.join(__dirname, 'data', 'customer-data.csv'))
     .on('end_parsed', (result) => {
         var raw = JSON.stringify(result, undefined, 2);
-        console.log(raw);
+        writeToJsonFile(path.join(__dirname, 'data', 'customer-data.json'), raw);
     })
 
 function writeToJsonFile(file, data) {
